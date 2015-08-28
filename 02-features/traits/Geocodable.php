@@ -43,4 +43,8 @@ trait Geocodable {
 
         return true;
     }
+    
+    public function getColor(){
+    	return $this->color;
+    }
 }

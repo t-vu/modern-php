@@ -26,4 +26,9 @@ class HtmlDocument implements Documentable
 
         return $html;
     }
+    
+    
 }
+
+$html = new HtmlDocument("https://en.wikipedia.org/wiki/Chef_%28software%29");
+print_r($html->getContent());
